@@ -1,0 +1,11 @@
+<% provide(:title, "Home") %>
+<%= stylesheet_link_tag 'style'%>
+
+<div id="particles-js"></div>
+
+<%= javascript_include_tag 'particles', 'app'%>
+
+<%= link_to static_pages_about_path do
+  image_tag("logobutton4.png", onmouseover: "this.src='#{asset_path("logobutton3.png")}'", onmouseout: "this.src='#{asset_path("logobutton4.png")}'", :class=> "logo")
+end %>
+
