@@ -1,5 +1,5 @@
 body {
-    background: url("me.png") no-repeat center center fixed;
+    background: url(me.png) no-repeat fixed center;
     width: 2048px;
     height: 1536px;
     -webkit-background-size: cover;
