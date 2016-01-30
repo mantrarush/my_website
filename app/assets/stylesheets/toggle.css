@@ -96,7 +96,7 @@ p { margin: 0 0 20px 0;
 
 .social {
     position: absolute;
-    left: 50%;
+    left: 47%;
     transform: translateX(-50%);
     margin: 0;
     padding: 0;
@@ -143,6 +143,10 @@ p { margin: 0 0 20px 0;
     opacity: 1.0;
 
 }
+.social .fa-home:hover { /* round facebook icon*/
+    background: #ff653c;
+}
+
 
 .social .fa-facebook:hover { /* round facebook icon*/
     background: #679bff;
@@ -165,4 +169,7 @@ p { margin: 0 0 20px 0;
 }
 .social .fa-file-text-o:hover { /* round skype icon*/
     background: #23971e;
+}
+.social .fa-user:hover { /* round facebook icon*/
+    background: #ff4e81;
 }
