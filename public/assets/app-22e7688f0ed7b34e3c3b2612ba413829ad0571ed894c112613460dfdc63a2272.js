@@ -4,6 +4,7 @@
 
 /* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
 
+
 particlesJS ('particles-js',
 
     {
