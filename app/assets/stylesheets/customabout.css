@@ -30,18 +30,19 @@ div
  h1 {
      top:50%
     font-family : 'AzoSans';
-    font-size: 70px;
+    font-size: 80px;
     color: #FFFFFF;
     margin-bottom: 30px;
     font-weight: 100;
 }
 p{
+    background-color: #000000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-variant: normal;
     font-weight: 300;
-    line-height: 20px;
+    line-height: 22px;
     color: #FFFFFF;
 }
 .custom {

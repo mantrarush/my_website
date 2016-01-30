@@ -24,12 +24,48 @@
 <div class="message">
   <div class="social">
     <ul>
-      <li><a href="mailto:amruthavasili@gmail.com?Subject=Hello%20from><i class="fa fa-lg fa-envelope"></i></a></li>
-      <li><a href="http://docdro.id/0fPlc1q"><i class="fa fa-lg fa-file-text-o"></i></a></li>
-      <li><a href="https://github.com/mantrarush"><i class="fa fa-lg fa-github"></i></a></li>
-      <li><a href="https://www.linkedin.com/in/amruthavasili"><i class="fa fa-lg fa-linkedin"></i></a></li>
-      <li><a href="https://www.facebook.com/moth.towards.light"><i class="fa fa-lg fa-facebook"></i></a></li>
-      <li><a href="skype:av.vasili2?call"><i class="fa fa-lg fa-skype"></i></a></li>
+      <li>
+        <%= link_to root_path do %>
+            <i class="fa fa-lg fa-home"> </i>
+        <% end %>
+      </li>
+      <li>
+        <%= link_to "mailto:amruthavasili@gmail.com?Subject=Hello%20from" do %>
+            <i class="fa fa-lg fa-envelope"> </i>
+        <% end %>
+      </li>
+      <li>
+        <%= link_to "http://docdro.id/0fPlc1q" do %>
+            <i class="fa fa-lg fa-file-text-o"> </i>
+        <% end %>
+      </li>
+      <li>
+        <%= link_to "https://github.com/mantrarush" do %>
+            <i class="fa fa-lg fa-github"> </i>
+        <% end %>
+      </li>
+      <li>
+        <%= link_to "https://www.linkedin.com/in/amruthavasili" do %>
+            <i class="fa fa-lg fa-linkedin"> </i>
+        <% end %>
+      </li>
+      <li>
+        <%= link_to "https://www.facebook.com/moth.towards.light" do %>
+            <i class="fa fa-lg fa-facebook"> </i>
+        <% end %>
+      </li>
+      <li>
+        <%= link_to "skype:av.vasili2?call" do %>
+            <i class="fa fa-lg fa-skype"> </i>
+        <% end %>
+      </li>
+
+      <li>
+        <%= link_to static_pages_about_path do %>
+            <i class="fa fa-lg fa-user"> </i>
+        <% end %>
+      </li>
+
     </ul>
   </div>
 </div>
