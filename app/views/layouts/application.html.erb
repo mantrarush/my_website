@@ -4,11 +4,10 @@
 <head>
   <title> <%= yield(:title) %> </title>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'toggle'%>
 
   <%= stylesheet_link_tag    'application', media: 'all',
                              'data-turbolinks-track' => true %>
-  <%= stylesheet_link_tag 'toggle', :media => "all"%>
+  <%= stylesheet_link_tag 'toggle', :media => "all" %>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
