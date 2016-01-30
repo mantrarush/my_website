@@ -1,0 +1,175 @@
+
+body{
+    background-color: transparent;
+}
+p { margin: 0 0 20px 0;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    vertical-align: baseline
+}
+* {
+    margin:0;
+    padding:0;
+    font-family:"Helvetica Neue", Helvetica, Sans-serif;
+    word-spacing:-2px;
+}
+
+
+
+.message {
+    background:darkslateblue;
+    position: absolute;
+    top: -250px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 50px;
+    transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+
+
+#toggle {
+    position:fixed;
+    appearance:none;
+    cursor:pointer;
+    left:-100%;
+    top:-100%;
+}
+
+#toggle + label {
+    left: 50%;
+    position: fixed;
+    transform: translateX(-50%);
+    cursor:pointer;
+    padding:10px;
+    background: transparent;
+    width: 150px;
+    border-radius: 3px;
+    padding: 8px 10px;
+    color: #FFF;
+    line-height:20px;
+    font-size:12px;
+    text-align:center;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    margin:30px 0px;
+    transition:all 500ms ease;
+    top : 25px;
+}
+#toggle:hover:after +label {
+    content:url("mboc.png");
+}
+#toggle + label:after {
+    content:url("mboa.png");
+}
+#toggle:hover + label {
+    content:url("mboc.png");
+}
+.container {
+    transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+    padding:50 px;
+}
+
+#toggle:checked ~ .message {
+    top: 0;
+}
+
+#toggle:checked ~ .container {
+    margin-top: 50px;
+}
+
+#toggle:checked + label {
+    background:transparent;
+}
+
+#toggle:checked:hover + label:after {
+    content:url("mboc.png")
+}
+
+
+.social {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+    width: 480px;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+}
+.social i {
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    background-color: transparent;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    opacity: 1.0;
+}
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    opacity: 1.0;
+
+}
+.social .fa-home:hover { /* round facebook icon*/
+    background: #ff653c;
+}
+
+
+.social .fa-facebook:hover { /* round facebook icon*/
+    background: #679bff;
+}
+
+
+.social .fa-github:hover { /* round github icon*/
+    background: #ff7181;
+}
+
+.social .fa-linkedin:hover { /* round linkedin icon*/
+    background: #00caff;
+}
+
+.social .fa-skype:hover { /* round skype icon*/
+    background: #00c6ff;
+}
+.social .fa-envelope:hover { /* round skype icon*/
+    background: #ff57f9;
+}
+.social .fa-file-text-o:hover { /* round skype icon*/
+    background: #23971e;
+}
+.social .fa-user:hover { /* round facebook icon*/
+    background: #ff4e81;
+}
