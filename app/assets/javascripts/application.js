@@ -10,8 +10,9 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 
-jQuery ->
-$('.dropdown-toggle').dropdown()
+
+$('[data-toggle="tooltip"]').tooltip({show: {effect:"none", delay:0}});
+
 //= require particles.js
 //= require bootstrap
 //= require jquery
