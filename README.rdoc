@@ -1,28 +1,12 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+To have this running, I have done the following:
+ > Have the final version intended for deployment on master branch of its respective git repo
+ > bundle install, bundle update, git add . , git commit -am "xyz" 
+ > Create heroku remote  
+ > git push heroku master
+ > Go to Domain settings of the heroku remote app created, set the domain name to the one I have. 
+ > Have the DNS target of the Heroku app, and have your domain name point to it (i.e. CNAME record) 
+ 
+Woooo!
+ 
