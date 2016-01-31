@@ -1,0 +1,58 @@
+body {
+    background: url(me.png) no-repeat fixed center;
+    width: 2048px;
+    height: 1536px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+div
+{
+    opacity: .50; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+    filter: alpha(opacity=50); /* IE lt 8 */
+    -ms-filter: "alpha(opacity=50)"; /* IE 8 */
+    -khtml-opacity: .50; /* Safari 1.x */
+    -moz-opacity: .50; /* FF lt 1.5, Netscape */
+}
+
+@font-face {
+    font-family: 'AzoSans';
+    src: url(../fonts/azo-sans-light.eot);
+    src: url(/assets/AzoSans-Light.otf) format("truetype");
+    font-weight: 200;
+    font-style: normal
+}
+
+
+ h1 {
+     top:50%
+    font-family : 'AzoSans';
+    font-size: 80px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+p{
+    background-color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.custom {
+
+    position:fixed;
+    top :40%;
+    left:20%;
+    text-align: justify;
+    width: 500px;
+    height: 100px;
+    box-sizing: border-box;
+}
