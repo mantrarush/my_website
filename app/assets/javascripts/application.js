@@ -12,7 +12,9 @@
 
 
 $('[data-toggle="tooltip"]').tooltip({show: {effect:"none", delay:0}});
-
+function scrollUp() {
+    $("body").scrollTop(0);
+};
 //= require particles.js
 //= require bootstrap
 //= require jquery
